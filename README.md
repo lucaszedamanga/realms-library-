@@ -33,7 +33,7 @@ end
 # criando uma toggle
 ```lua
 local loop = false
-create_button({
+create_toggle({
 tab = "Outros",
 Name = "Tp to spawn", 
 Callback = function()
