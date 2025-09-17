@@ -1,4 +1,4 @@
-# realms-library-
+# realms-library
 # Aviso ⚠️ realms library está na sua 1° versão, e pode conter bugs 
 # Além disso lembre-se de por o nome da tab que fica seu botão ou toggle 
 # criando a library:
