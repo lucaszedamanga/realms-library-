@@ -23,7 +23,7 @@ create_tab({Name = "tab name"})
 
 ```lua
 create_button({
-tab = "nome da tab",
+tab = "tab name",
 Name = "nome do botão", 
 Callback = function()
 print("alien é bixa")
@@ -34,8 +34,8 @@ end
 ```lua
 local loop = false
 create_toggle({
-tab = "Outros",
-Name = "Tp to spawn", 
+tab = "tab name",
+Name = "toggle", 
 Callback = function()
 loop = not loop
 while loop do 
@@ -53,7 +53,7 @@ end
 
 create_checklist({
 Name = "your name  here",
-tab = "Outros",
+tab = "tab name",
 things = {"maçã", "pêra", "melancia", "uva"},
 Callback = function(value)
 print(value)
