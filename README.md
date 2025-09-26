@@ -60,3 +60,16 @@ print(value)
 end
 })
 ```
+
+# criando uma área de texto
+
+```lua
+create_textbox({
+tab = "t",
+Name = "nome do texto", 
+Callback = function(value)
+print(value)
+end
+})
+
+```
